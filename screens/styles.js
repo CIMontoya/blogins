@@ -34,6 +34,11 @@ const styles = {
         flexDirection: 'column',
         alignItems: 'center',
         marginTop: 50
+      },
+      form: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
       }
   }
 

@@ -34,13 +34,15 @@ export default class HomeScreen extends React.Component {
     return (
       <View style={styles.container}>
         <Image source = {require('../assets/images/logo.png')} style={styles.logo}/>
-        <Form type={User} />
+        <View style={styles.form}>
+        <Form type={User}/>
         <Button
           onPress={() => this.handleClick(this)}
           style={styles.navbar}
           title="Submit"
           type="outline"
         />
+        </View>
       </View>
     )
   }
