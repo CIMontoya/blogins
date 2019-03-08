@@ -17,7 +17,7 @@ constructor(props){
     }
 
   render() {
-    console.log(this.props)
+    console.log("createblog:", this.props)
   return (
     <View style={styles.container}>
       <TextInput
