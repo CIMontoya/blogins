@@ -40,7 +40,7 @@ LinksStack.navigationOptions = {
 };
 
 const SettingsStack = createStackNavigator({
-  Trending: { screen: Trending, params: { test: 'Playstation' } },
+  Trending: { screen: Trending, params: { test: "cheese" } },
 });
 
 SettingsStack.navigationOptions = {

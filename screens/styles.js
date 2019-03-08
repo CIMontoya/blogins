@@ -1,4 +1,9 @@
 const styles = {
+  logo: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
     container: {
       flex: 1,
       justifyContent: 'flex-start',
@@ -17,17 +22,6 @@ const styles = {
     },
     header: {
       width:'140%'
-    },
-    inputContainer: {
-      borderLeftWidth: 4,
-      borderRightWidth: 4,
-      height: 70
-    },
-    input: {
-      height: 70,
-      backgroundColor: '#ffffff',
-      paddingLeft: 15,
-      paddingRight: 15
     },
     h2: {
       backgroundColor: 'grey',
