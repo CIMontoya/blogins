@@ -3,7 +3,7 @@
   "expoServerPort": null,
   "packagerPort": null,
   "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerNgrokUrl": "https://pe-9n2.anonymous.blogins.exp.direct",
+  "packagerNgrokUrl": "https://packager.pe-9n2.anonymous.blogins.exp.direct",
+  "ngrokPid": 35524
 }
