@@ -3,6 +3,8 @@ const styles = {
     flexDirection: 'row',
     justifyContent: 'center',
     alignItems: 'center',
+    width: 300,
+    height: 100
   },
     container: {
       flex: 1,

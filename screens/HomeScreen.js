@@ -7,10 +7,22 @@ import {
   Text,
   TouchableOpacity,
   View,
+  Button
+
 } from 'react-native';
 import { WebBrowser } from 'expo';
 import { MonoText } from '../components/StyledText';
 import styles from './styles';
+import t from 'tcomb-form-native';
+
+const Form = t.form.Form;
+
+const User = t.struct({
+  email: t.String,
+  username: t.String,
+  password: t.String,
+  rememberMe: t.Boolean
+});
 
 
 export default class HomeScreen extends React.Component {
@@ -20,7 +32,16 @@ export default class HomeScreen extends React.Component {
 
   render() {
     return (
-      <Image source = {require('../assets/images/logo.png')}/>
+      <View style={styles.container}>
+        <Image source = {require('../assets/images/logo.png')} style={styles.logo}/>
+        <Form type={User} />
+        <Button
+          onPress={() => this.handleClick(this)}
+          style={styles.navbar}
+          title="Submit"
+          type="outline"
+        />
+      </View>
     )
   }
 
